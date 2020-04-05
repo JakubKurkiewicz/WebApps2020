@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(87, 85, 82);
+    color:white;
+}
+table{
+    border-collapse:collapse;
+    position:absolute;
+    left:37%;
+ 
+}
+td{
+    border: 5px solid black;
+    height:90px;
+    width:90px;
+    text-align:center;
+    font-size:70px;
+}
+td:hover{
+    background-color:green;
+}
+#winner{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gameBoard{
+    padding-top: 100px;
+}
