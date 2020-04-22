@@ -1,0 +1,43 @@
+body{
+    color:black;
+    margin: 0 auto;
+}
+#left{
+    width: 50%;
+    background-color: rgb(126, 169, 177);
+    float: left;
+    height: 100vh;
+}
+#formOut{
+    width: 50%;
+    background-color: rgb(224, 231, 163);
+    float: right;
+    height: 100vh;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    position: relative;
+    left: 3%;
+    margin-top: 2%;
+}
+input, textarea, label {
+    display: block;
+}
+.lista {
+    width: 60%;
+    position: relative;
+    left: 37%;
+    padding: 10px;
+}
+#Former{
+    position: relative;
+    left: 20%;
+}
